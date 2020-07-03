@@ -1,7 +1,9 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --secondary-font: Raleway, sans-serif;
-    --accent-colour: #2196F3;    
+    --accent-colour: #2196F3; 
+    --footer-them-color: #2F303A; 
+    --footer-text-color: #ffffff;      
 }
 
 body{
@@ -46,15 +48,21 @@ body{
     color: #757575;
 }
 
-.header-link:hover,
 .navigation-link:hover,
 .navigation-mail:hover,
 .navigation-tel:hover,
-.header-link:focus,
 .navigation-link:focus
 .navigation-mail:focus,
-.navigation-tel:focus{
+.navigation-tel:focus {
     color: #2196F3;
+}
+
+.social-link:hover,
+.social-link:focus {
+display: inline-block;
+width: 22px;
+height: 22px;
+background-color: var(--accent-colour);
 }
 
 .heading {
@@ -133,4 +141,48 @@ height: 74.14px;
 left: 1075.05px;
 top: 1519.9px;
 background: rgba(47, 48, 58, 0.8);
+}
+
+.section-theme {
+background: #F5F4FA;
+}
+
+.footer-them-color {
+    background-color: var(--footer-them-color);
+}
+
+.studio {
+    color: #FFFFFF;;
+}
+
+.footer-text {
+    color: var(--footer-text-color);
+}
+
+.portfolio-title {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 19.065px;
+line-height: 1.99;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-subtitle {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16.9466px;
+line-height: 1.89;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-subtitle-hidden{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 19.065px;
+line-height: 1.57;
+letter-spacing: 0.03em;
+color: #212121;
 }
